@@ -1,7 +1,13 @@
-O Seguinte projeto veio em mente após eu ver um matemático desenhando uma borboleta com equações em um post feito no linkedin.
+# Equational Drawing
 
-![Foto de Capa](imgs/Mphoto.png)
+This project was inspired by a mathematician I saw on LinkedIn who drew a butterfly using mathematical equations.
 
-decidi fazer o mesmo porem com python, você cola uma imagem e ele a reescreve em um formato de desenho em equações em um plano cartesiano, também funciona com gifs.
+I decided to recreate this concept using Python. The program takes an image and transforms it into a drawing represented by equations on a Cartesian coordinate system. It also supports GIFs.
 
-![Gifs](imgs/Recording2026-10-22115814-ezgif.com-video-to-gif-converter.gif)
+## Cover
+
+![Cover](imgs/Mphoto.png)
+
+## Demo
+
+![GIF Demo](imgs/Recording2026-10-22115814-ezgif.com-video-to-gif-converter.gif)
