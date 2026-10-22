@@ -1,0 +1,127 @@
+# ===== Python =====
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensoes C
+*.so
+*.pyd
+
+# Build / distribuicao
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller (caso gere um .exe)
+*.manifest
+*.spec
+
+# Logs de instalacao do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testes / cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# ===== Ambientes virtuais =====
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+pyvenv.cfg
+
+# ===== Variaveis de ambiente / segredos =====
+.env
+.env.*
+!.env.example
+
+# ===== Editores / IDEs =====
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.cursor/
+
+# ===== Claude Code (config local) =====
+.claude/settings.local.json
+
+# ===== Windows =====
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== Linux =====
+.directory
+.Trash-*
+
+# ===== Arquivos temporarios / saidas =====
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+output/
+saida/
